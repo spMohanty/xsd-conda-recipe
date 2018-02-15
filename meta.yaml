@@ -1,0 +1,31 @@
+package:
+  name: xsd
+  version: 4.0.0
+
+source:
+  path: releases/xsd-4.0.0-i686-macosx.tar.bz2 # [osx]
+  path: releases/xsd-4.0.0-i686-linux-gnu.tar.bz2 # [linux32]
+  path: releases/xsd-4.0.0-x86_64-linux-gnu.tar.bz2 # [linux64]
+  path: releases/xsd-4.0.0-i686-windows.zip # [win]
+
+build:
+  number: 1
+
+requirements:
+  build:
+    - xerces-c
+    - expat
+  run:
+    - xerces-c
+    - expat
+
+about:
+  home: https://www.codesynthesis.com/products/xsd/download.xhtml
+  license: "GPL v2"
+  summary: "XSD runtime library"
+  recipe_author: "S.P. Mohanty"
+  author_email: "sharada.mohanty@epfl.ch"
+
+extra:
+  maintainers:
+    - S.P. Mohanty <sharada.mohanty@epfl.ch>
