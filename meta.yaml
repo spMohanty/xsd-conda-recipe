@@ -3,10 +3,10 @@ package:
   version: 4.0.0
 
 source:
-  path: releases/xsd-4.0.0-i686-macosx.tar.bz2 # [osx]
-  path: releases/xsd-4.0.0-i686-linux-gnu.tar.bz2 # [linux32]
-  path: releases/xsd-4.0.0-x86_64-linux-gnu.tar.bz2 # [linux64]
-  path: releases/xsd-4.0.0-i686-windows.zip # [win]
+  path: releases/xsd-4.0.0-i686-macosx # [osx]
+  path: releases/xsd-4.0.0-i686-linux-gnu # [linux32]
+  path: releases/xsd-4.0.0-x86_64-linux-gnu # [linux64]
+  path: releases/xsd-4.0.0-i686-windows # [win]
 
 build:
   number: 1
